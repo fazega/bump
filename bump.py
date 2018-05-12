@@ -21,8 +21,9 @@ thread.start()
 import time
 time.sleep(1)
 
-dest = "192.168.0.29"
-proxy = "192.168.0.17"
+dest = "192.168.0.26"
+#proxy = "192.168.0.17"
+proxy = "bump.partymatch.social"
 
 while True:
     message = raw_input("Entrez votre message : ")
